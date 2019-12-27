@@ -19,6 +19,8 @@ function greet(time) {
   }
 }
 /* Write your implementation of displayMessage() */
-function displayMessage() {
-
+function displayMessage(message) {
+  const nipples = document.createElement('div')
+  nipples.id = "greeting"
+  nipples.innerText = message
 }
