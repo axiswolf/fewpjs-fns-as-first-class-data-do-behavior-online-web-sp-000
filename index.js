@@ -20,8 +20,6 @@ function greet(time) {
 }
 /* Write your implementation of displayMessage() */
 function displayMessage(message) {
-  const nipples = document.createElement('div')
-  nipples.id = "greeting"
+  const nipples = document.getElementById('div')
   nipples.innerText = message
-  document.body.appendChild
 }
