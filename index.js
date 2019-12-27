@@ -14,7 +14,7 @@ function greet(time) {
   } else if (time < 17) {
     return("Good Afternoon")
   } else if (time > 17) {
-    console.log("Good Evening")
+    return("Good Evening")
   }
 }
 /* Write your implementation of displayMessage() */
