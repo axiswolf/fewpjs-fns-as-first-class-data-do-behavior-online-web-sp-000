@@ -8,7 +8,7 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 
 /* Write your implementation of greet() */
-function greet() {
+function greet(time) {
   if (time < 12){
     console.log("Good Morning")
   } else if (time =< 17) {
@@ -19,5 +19,5 @@ function greet() {
 }
 /* Write your implementation of displayMessage() */
 function displayMessage() {
-
+  
 }
