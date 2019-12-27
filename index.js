@@ -23,4 +23,5 @@ function displayMessage(message) {
   const nipples = document.createElement('div')
   nipples.id = "greeting"
   nipples.innerText = message
+  document.body.appendChild
 }
