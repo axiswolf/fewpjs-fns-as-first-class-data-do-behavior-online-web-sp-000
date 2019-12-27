@@ -10,9 +10,9 @@ function handleClick(e) {
 /* Write your implementation of greet() */
 function greet(time) {
   if (time < 12){
-    console.log("Good Morning")
+    return("Good Morning")
   } else if (time < 17) {
-    console.log("Good Afternoon")
+    return("Good Afternoon")
   } else if (time > 17) {
     console.log("Good Evening")
   }
